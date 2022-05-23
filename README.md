@@ -72,7 +72,7 @@ endmodule
 
 ### TIMING DIGRAMS FOR COUNTER  
 <img width="947" alt="ttcup" src="https://user-images.githubusercontent.com/93427278/169742365-49e05caf-e716-4246-b909-c15b48b85f8a.png">
-![uptime2](https://user-images.githubusercontent.com/93427278/169742386-9943b3ae-9d1b-41c7-b8fd-f4d1ebd4f86b.png)
+![ds01](https://user-images.githubusercontent.com/93427278/169749431-17453a13-0cc3-41c6-9349-c7b6b7ad2008.png)
 
 ### TRUTH TABLE 
 ![upc](https://user-images.githubusercontent.com/93427278/169742441-f096b49b-7618-4fd1-b05c-def2ee99c015.jpg)
@@ -97,7 +97,7 @@ endmodule
 
 ### TIMING DIGRAMS FOR COUNTER
 <img width="943" alt="ttcdow" src="https://user-images.githubusercontent.com/93427278/169742594-a7468794-6672-4106-9692-ea73c3a41304.png">
-![downtime2](https://user-images.githubusercontent.com/93427278/169742616-4f8b8b4d-7e8a-4371-8bf5-ac8e75c7bf4d.png)
+![ds02](https://user-images.githubusercontent.com/93427278/169749496-9cb6eacc-a1bc-44d9-8234-410b9c4fe794.png)
 
 ### TRUTH TABLE
 ![cdow](https://user-images.githubusercontent.com/93427278/169742646-0f5ca317-264d-4cca-b4be-34db2456ac0a.jpg)
