@@ -71,9 +71,10 @@ endmodule
 <img width="574" alt="cdcup" src="https://user-images.githubusercontent.com/93427278/169742229-7282ea72-b82e-4134-bb62-1c7c05337112.png">
 
 ### TIMING DIGRAMS FOR COUNTER  
-<img width="947" alt="ttcup" src="https://user-images.githubusercontent.com/93427278/169742365-49e05caf-e716-4246-b909-c15b48b85f8a.png">
-![td1](https://user-images.githubusercontent.com/93427278/169751816-2407e99c-334f-4e37-b2de-f51108cd6cab.jpeg)
-
+When reset is high
+![up high](https://user-images.githubusercontent.com/93427278/169753111-1a13e6de-b9e7-4bee-94a8-12b25ec5d7bc.png)
+When reset is low
+![up low](https://user-images.githubusercontent.com/93427278/169753180-c4ceb243-2ba1-482d-8d70-01352faacf7c.png)
 
 ### TRUTH TABLE 
 ![upc](https://user-images.githubusercontent.com/93427278/169742441-f096b49b-7618-4fd1-b05c-def2ee99c015.jpg)
@@ -97,8 +98,10 @@ endmodule
 <img width="476" alt="cdcdow" src="https://user-images.githubusercontent.com/93427278/169742563-746d4660-69b8-41a8-8ebc-61f0aa72f9b6.png">
 
 ### TIMING DIGRAMS FOR COUNTER
-<img width="943" alt="ttcdow" src="https://user-images.githubusercontent.com/93427278/169742594-a7468794-6672-4106-9692-ea73c3a41304.png">
-![ds02](https://user-images.githubusercontent.com/93427278/169749496-9cb6eacc-a1bc-44d9-8234-410b9c4fe794.png)
+When reset is high
+![down high ](https://user-images.githubusercontent.com/93427278/169753279-841481ca-9f82-4038-8073-c8d0024c9c71.png)
+When reset is low
+![down low ](https://user-images.githubusercontent.com/93427278/169753328-992d073c-52d1-42a3-baee-873e9f47a040.png)
 
 ### TRUTH TABLE
 ![cdow](https://user-images.githubusercontent.com/93427278/169742646-0f5ca317-264d-4cca-b4be-34db2456ac0a.jpg)
