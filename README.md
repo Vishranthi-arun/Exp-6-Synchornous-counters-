@@ -46,43 +46,69 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
-
-
+1. Create module projectname(input ,output) to start the verilog programming.
+2. create a if loop condition to increase the count in counter_up function.
+3. Similarly, create another loop for the down counter.
+4. End the verilog program using keyword endmodule.
+5. Get the timing diagram and RTL realization diagram for respective Counters.
 
 ### PROGRAM 
+```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Vishranthi A
+RegisterNumber:  212221230124
 */
+```
+## UP COUNTER
+```
+module UPC(input clk,input reset,output[0:3]counter);
+reg[0:3]counter_up;
+always@(posedge clk or posedge reset)
+begin
+if (reset)
+counter_up<=4'd0;
+else 
+counter_up<=counter_up+4'd1;
+end
+assign counter=counter_up;
+endmodule
+```
 
-
-
-
-
-
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
-
-
-
-
-
-
-
-
+### RTL LOGIC 
+<img width="574" alt="cdcup" src="https://user-images.githubusercontent.com/93427278/169742229-7282ea72-b82e-4134-bb62-1c7c05337112.png">
 
 ### TIMING DIGRAMS FOR COUNTER  
-
-
-
-
+<img width="947" alt="ttcup" src="https://user-images.githubusercontent.com/93427278/169742365-49e05caf-e716-4246-b909-c15b48b85f8a.png">
+![uptime2](https://user-images.githubusercontent.com/93427278/169742386-9943b3ae-9d1b-41c7-b8fd-f4d1ebd4f86b.png)
 
 ### TRUTH TABLE 
+![upc](https://user-images.githubusercontent.com/93427278/169742441-f096b49b-7618-4fd1-b05c-def2ee99c015.jpg)
 
+## DOWN COUNTER
+```
+module cdow(input clk,input reset,output[0:3]counter);
+reg[0:3]counter_down;
+always@(posedge clk or posedge reset)
+begin
+if (reset)
+counter_down<=4'd0;
+else 
+counter_down<=counter_down-4'd1;
+end
+assign counter=counter_down;
+endmodule
+```
 
+### RTL LOGIC 
+<img width="476" alt="cdcdow" src="https://user-images.githubusercontent.com/93427278/169742563-746d4660-69b8-41a8-8ebc-61f0aa72f9b6.png">
 
+### TIMING DIGRAMS FOR COUNTER
+<img width="943" alt="ttcdow" src="https://user-images.githubusercontent.com/93427278/169742594-a7468794-6672-4106-9692-ea73c3a41304.png">
+![downtime2](https://user-images.githubusercontent.com/93427278/169742616-4f8b8b4d-7e8a-4371-8bf5-ac8e75c7bf4d.png)
 
-
+### TRUTH TABLE
+![cdow](https://user-images.githubusercontent.com/93427278/169742646-0f5ca317-264d-4cca-b4be-34db2456ac0a.jpg)
 
 ### RESULTS 
+4 bit up and down counters are implemented and its functionality is validated successfully.
