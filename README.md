@@ -72,8 +72,8 @@ endmodule
 
 ### TIMING DIGRAMS FOR COUNTER  
 <img width="947" alt="ttcup" src="https://user-images.githubusercontent.com/93427278/169742365-49e05caf-e716-4246-b909-c15b48b85f8a.png">
-![ds01](https://user-images.githubusercontent.com/93427278/169749431-17453a13-0cc3-41c6-9349-c7b6b7ad2008.png)
-![ds01](https://user-images.githubusercontent.com/93427278/169749788-5b7b63b9-3569-4da3-b77d-451974a9b3f4.png)
+![td1](https://user-images.githubusercontent.com/93427278/169751816-2407e99c-334f-4e37-b2de-f51108cd6cab.jpeg)
+
 
 ### TRUTH TABLE 
 ![upc](https://user-images.githubusercontent.com/93427278/169742441-f096b49b-7618-4fd1-b05c-def2ee99c015.jpg)
